@@ -1,4 +1,4 @@
-# My own version of Wordle.
+# My own version of Wordle, with a leaderboard.
 # Used no internet or AI, except for help using colored text
 
 # Nicholas Gorsich, Spring 2024
