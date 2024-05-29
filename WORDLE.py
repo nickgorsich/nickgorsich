@@ -1,3 +1,8 @@
+# My own version of Wordle.
+# Used no internet or AI, except for help using colored text
+
+# Nicholas Gorsich, Spring 2024
+
 import time, random, os
 
 class style():
@@ -12,6 +17,8 @@ class style():
     UNDERLINE = '\033[4m'
     RESET = '\033[0m'
 os.system("")
+
+# might want to collapse the word lists lol
 
 wordList = ['aback',
 'groin',
