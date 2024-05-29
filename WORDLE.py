@@ -9526,18 +9526,17 @@ def Wordle():
 
         elif len(a) == 5 and b.lower() in dictionary:
             guess = []
-            correctLetters = []
+            # correctLetters = []
             count = 0
             for i in range(5):
                 if a[i].upper() == answer[i].upper():
                     guess += (style.GREEN + (a[i]).upper() + " " + style.RESET) # green
                     count += 1
-                    correctLetters.append(a[i])
+                    # correctLetters.append(a[i])
 
                 elif a[i].upper() in answer:
                 # if correctLetters[a[i]] == 0:
                     guess += (style.YELLOW + (a[i]).upper() + " " + style.RESET) # yellow
-
 
                 else:
                     guess += (style.WHITE + a[i].upper() + " " + style.RESET) # white
