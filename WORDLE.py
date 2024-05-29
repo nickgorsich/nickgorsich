@@ -9556,7 +9556,6 @@ def Wordle():
                 with open('leaderboard.txt', 'a') as leaderboard:
                     leaderboard.write(style.CYAN + f"{name}: " + style.BLACK + f"{finalTime} seconds in {attempts} attempts. \n" + style.RESET)
                     
-                # reorder()
                 
                 with open('leaderboard.txt', 'r') as leaderboard:
                     board = leaderboard.read()
@@ -9588,52 +9587,16 @@ def Wordle():
         quit()
 
 
+
 def clearleaderboard():
     with open('leaderboard.txt', 'w') as leaderboard:
         leaderboard.write('')
-
- 
-def sortLeaderboard():
-    pass
-    
+   
 
 # clearleaderboard()
 
-
 Wordle()
 
+# Thanks for checking this out!
 
-
-# ============================================== AI generated Wordle =======================================================================
-
-# List of five-letter words
-word_list = ['ABOUT', 'ABOVE', 'ACTOR', 'ALBUM', 'ALERT', 'ALIKE', 'ALLOW', 'ALONE', 'APPLE', 'APPLY', 'BASIC', 'BEACH', 'BEGIN', 'BRAIN', 'BRAND', 'BREAD', 'BREAK', 'BRIEF', 'BRING', 'BROAD', 'BUILD', 'CATCH', 'CHAIN', 'CHAIR', 'CHECK', 'CHEST', 'CHIEF', 'CHILD', 'CLEAN', 'CLEAR', 'CLICK', 'COACH', 'COUNT', 'COVER', 'CRAFT', 'CRIME', 'DANCE', 'DOING', 'DOZEN', 'DRAFT', 'DRAMA', 'DREAM', 'DRESS', 'DRIVE', 'EARTH', 'ENJOY', 'ENTER', 'ERROR', 'EVENT', 'EXACT', 'EXIST', 'FAITH', 'FIELD', 'FINAL', 'FIRST', 'FLASH', 'FORCE', 'FRESH', 'FRONT', 'FRUIT', 'GUESS', 'GUEST', 'GUIDE', 'HAPPY', 'HEART', 'HOUSE', 'HUMAN', 'IDEAL', 'IMAGE', 'INDEX', 'INPUT', 'ISSUE', 'JUDGE', 'KNOWN', 'LARGE', 'LEARN', 'LIGHT', 'LIMIT', 'LOCAL', 'LOGIC', 'MAJOR', 'MEDIA', 'MIGHT', 'MODEL', 'MONEY', 'MONTH', 'MUSIC', 'NEVER', 'NIGHT', 'NOISE', 'NORTH', 'ORDER', 'OTHER', 'PAINT', 'PHONE', 'PIECE', 'PLACE', 'PLANT', 'POINT', 'POWER', 'PRICE', 'PRIDE', 'PRINT', 'PROOF', 'PROUD', 'QUICK', 'QUIET', 'RANGE', 'READY', 'REFER', 'RIGHT', 'RIVER', 'ROUND', 'SCALE', 'SCENE', 'SCORE', 'SENSE', 'SERVE', 'SEVEN', 'SHAPE', 'SHARE', 'SHORT', 'SIGHT', 'SOUND', 'SOUTH', 'SPACE', 'SPEED', 'SPEND', 'SPLIT', 'SPORT', 'STAFF', 'STAGE', 'STAND', 'START', 'STATE', 'STICK', 'STILL', 'STONE', 'STORE', 'STORY', 'STUDY', 'STYLE', 'SUGAR', 'TABLE', 'TASTE', 'TEACH', 'THEME', 'THESE', 'THING', 'THINK', 'THIRD', 'THOSE', 'THREE', 'TITLE', 'TODAY', 'TOPIC', 'TOTAL', 'TOUCH', 'TRADE', 'TRAIN', 'TRUST', 'TRUTH', 'UNDER', 'UNION', 'UNITY', 'VALUE', 'VIDEO', 'VISIT', 'WATCH', 'WATER', 'WHERE', 'WHICH', 'WHITE', 'WHOLE', 'WOMAN', 'WORLD', 'WORTH', 'WRITE', 'WRONG', 'YIELD', 'YOUNG', 'YOUTH']
-
-# Select a random word from the list
-word_to_guess = random.choice(word_list)
-
-# Number of attempts
-def copilotWordle():
-    attempts = 6
-
-    for attempt in range(attempts):
-        guess = input("Enter your guess: ").upper()
-        if len(guess) != 5:
-            print("Please enter a five-letter word.")
-            continue
-        if guess == word_to_guess:
-            print("Congratulations! You've guessed the word.")
-            break
-        else:
-            # Provide feedback
-            feedback = ['_' for _ in range(5)]
-            for i in range(5):
-                if guess[i] == word_to_guess[i]:
-                    feedback[i] = guess[i]
-                elif guess[i] in word_to_guess:
-                    feedback[i] = '?'
-            print(' '.join(feedback))
-    else:
-        print(f"Sorry, you didn't guess the word. The word was {word_to_guess}.")
-
-#copilotWordle()
+# - Nicholas Gorsich
