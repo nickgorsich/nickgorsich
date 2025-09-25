@@ -1,7 +1,7 @@
 - 👋 Hi, I’m @nickgorsich
-- I attend the University of Iowa
+- I am a junior at the University of Iowa
 - 👀 I’m interested in software development
-- 🌱 I’m currently learning the fundamentals of computer science
+- 🌱 I’m currently learning about Algorithms and Computer Networks
 - 📫 How to reach me: ngorsich@uiowa.edu
 - ⚡ Fun fact: I am on the track and field team
 
