@@ -1,68 +1,41 @@
-# Hey, I'm Nicholas 👋
+# Hey, I'm Nicholas Gorsich 👋
 
-CS student at the University of Iowa, scholarship athlete on the track & field team, and builder of things I actually want to use.
+I'm a senior Computer Science student at the University of Iowa, a Division I 400m hurdler, and a builder focused on practical software and systems. I enjoy taking ideas from first version to real-world use—especially where technology can improve the athlete experience.
 
-I got into coding because I wanted to build software that solves real problems — not just class assignments. Most of what I build is mobile-first, and I've been getting into AI-assisted development as a way to ship faster and learn more at the same time.
+## What I'm working on
 
----
+### [Stridelane](https://stride-lane.com) — Co-Founder & CTO
+Building LED pacing-light systems for track & field. I lead the software and hardware-integration work behind a distributed control system that connects a React application with Raspberry Pi-based trackside hardware.
 
-## 🏗️ Projects
+### [Apex](https://apextrack.web.app) — Track & Field Training App
+A full-stack Progressive Web App that helps athletes log races, workouts, and personal bests.
 
-### [Apex — Track & Field Training App](https://apextrack.web.app)
-A full-stack Progressive Web App for track & field athletes to log races, workouts, and personal bests. Built from scratch — no frameworks, no templates.
+- Built from scratch with JavaScript, Firebase, HTML5, CSS3, and PWA technologies
+- Includes structured workout building, season management, PR detection, and cross-device sync
+- 13,000+ lines of code; installable on iOS and Android
 
-- **Tech:** JavaScript (ES6+), HTML5, CSS3, Firebase (Firestore, Auth, Hosting), PWA
-- **Features:** Season management, structured workout logging, race results with PR tracking, performance ratings, custom theming, offline-capable
-- **Scale:** 13,000+ lines of code · 11+ active users · installable on iOS & Android
+### Browser Games Suite
+A collection of independently built and deployed browser games, including live Brawl Stars statistics through a Python-backed REST API integration.
 
-### [Browser Games Suite](https://nicholas-games.surge.sh)
-A collection of fully playable browser games built and deployed independently.
+## Technical focus
 
-- **Tech:** HTML, CSS, JavaScript, Python (Brawl Stars API integration)
-- **Games:** Speed Wordle, Snake, Breakout, 2048, Memory, Word Scramble, Tic-Tac-Toe, Password Generator, Catan Dice Roller, Treasure Hunt, Brawl Stars Stats Tracker
+**Languages & frameworks:** JavaScript (ES6+), React, Python, Java, HTML5, CSS3  
+**Backend & systems:** Firebase, Node.js, REST APIs, Progressive Web Apps, Raspberry Pi, RS485 serial protocols  
+**Development:** Git & GitHub, responsive UI/UX, mobile-first product development, AI-assisted engineering workflows
 
-### Facility Location Problem — Algorithm Analysis
-Implemented and compared greedy O(n) and brute-force O(n²) approaches on large datasets to determine optimal facility placement.
+## Education
 
-- **Tech:** Python, CSV data processing
+**University of Iowa** — B.A. in Computer Science, expected May 2027  
+Senior · GPA: 3.65/4.0 · Dean's List  
+Division I Scholarship Student-Athlete, Iowa Track & Field
 
-### Wordle Recreation with Leaderboard
-Text-based Wordle clone with a leaderboard tracking completion time and guess count.
+## Athletics
 
-- **Tech:** Python, Excel
+I compete in the 400m hurdles for the University of Iowa (PR: 51.25). Balancing Division I athletics with engineering and entrepreneurship has shaped how I approach consistency, ownership, and execution.
 
----
+## Connect
 
-## 🛠️ Skills
-
-**Languages:** JavaScript (ES6+), Python, Java, HTML5, CSS3
-
-**Backend & Database:** Firebase (Firestore, Authentication, Hosting, Storage), REST APIs, JSON, Node.js
-
-**Development:** Progressive Web Apps (PWA), Mobile-first UI/UX, Web App Manifest, Service Workers, Git & GitHub
-
-**Tools:** VS Code, Claude Code, Firebase CLI, Surge
-
----
-
-## 🎓 Education
-
-**University of Iowa** — B.A. in Computer Science, Business Minor *(2023–2028)*
-GPA: 3.86 · Dean's List · Presidential Committee on Athletics Academic Achievement Award
-
----
-
-## 🏃 Athletics
-
-Scholarship athlete on the **University of Iowa Track & Field** team. Specialize in the 400m hurdles (PR: 51.25). Balancing D1 athletics with a full CS courseload has been the best time management course I've ever taken.
-
----
-
-## 📫 Reach Me
-
-- **Email:** nickgorsich32@gmail.com
-- **LinkedIn:** [Nicholas Gorsich](https://linkedin.com/in/nicholas-gorsich)
-
----
+- [LinkedIn](https://linkedin.com/in/nicholas-gorsich)
+- [Email](mailto:nickgorsich32@gmail.com)
 
 ![Nicholas's GitHub Stats](https://github-readme-stats.vercel.app/api?username=nickgorsich&show_icons=true&theme=dark&hide_border=true&bg_color=0d1117)
