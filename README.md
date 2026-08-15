@@ -37,5 +37,3 @@ I compete in the 400m hurdles for the University of Iowa (PR: 51.25). Balancing 
 
 - [LinkedIn](https://linkedin.com/in/nicholas-gorsich)
 - [Email](mailto:nickgorsich32@gmail.com)
-
-![Nicholas's GitHub Stats](https://github-readme-stats.vercel.app/api?username=nickgorsich&show_icons=true&theme=dark&hide_border=true&bg_color=0d1117)
